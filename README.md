@@ -19,4 +19,4 @@ library(devtools)
 install_github("gbstat/tailqr")
 ```
 
-For an example of how the `tailqr` package can be used to estimate the tail quantiles of daily maximum temperature (tasmax) data, see the `fit_model.R` file in the `/examples` directory.
+For an example of how the `tailqr` package can be used to estimate the tail quantiles of daily maximum temperature (tasmax) data, see the `fit_tasmax.R` file in the `/examples` directory.
