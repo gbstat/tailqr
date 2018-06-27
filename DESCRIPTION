@@ -1,0 +1,22 @@
+Package: tailqr
+Type: Package
+Title: 'Fit Mixture of Quantile Regression and GPDs'
+Version: 1.0
+Date: 2018-05-24
+Author: Gregory Bopp
+Maintainer: Gregory Bopp <your@email.com>
+Description: This package is used for fitting a quantile regression model to The Large Ensemble Community Project temperature data (http://www.cesm.ucar.edu/projects/community-projects/LENS/) using a periodic basis in time for the bulk of the distribution, and a mixture of GPDs in the tails.
+License: GPL (>= 2)
+Imports: quantreg,
+         splines,
+         pbs,
+         lubridate,
+         PCICt,
+         abind
+Requires: quantreg,
+         splines,
+         pbs,
+         lubridate,
+         PCICt,
+         abind
+RoxygenNote: 6.0.1
